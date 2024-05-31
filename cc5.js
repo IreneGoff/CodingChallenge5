@@ -37,3 +37,12 @@ class Manager extends Employee {
     }
 }
 
+// Instantiate Manager Objects
+// Manager 1: Bob Ross works in the Digital Marketing department and earns $6600.00 a month.
+const manager1 = new Manager("Bob Ross", 6600, "Digital Marketing");
+manager1.calculateAnnualSalary();
+
+// Manager 2: Debbie Little works in the Finance department and earns $7205.00 a month.
+const manager2 = new Manager("Debbie Little", 7205, "Finance");
+manager2.calculateAnnualSalary();
+
